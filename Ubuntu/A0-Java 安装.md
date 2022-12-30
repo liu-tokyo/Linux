@@ -2,4 +2,5 @@
 
 - 参照如下网址：
 
-  [Java Install on Ubuntu](../../MY_DBS/OracleDB/A0-Ubuntu安装Java并配置环境变量.md)
+  [Java Install on Ubuntu](/MY_DBS/OracleDB/A0-Ubuntu安装Java并配置环境变量.md)
+
