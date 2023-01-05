@@ -1,5 +1,7 @@
 # Ubuntu20.04系统上安装Java并配置环境变量
 
+> 作业环境：Ubuntu 20.04、22.04
+
 ## 1. 确认安装版本
 
 首先依然需要打开终端。当然我们要确认一下自己的Ubuntu系统电脑里是否安装了Java。
@@ -63,7 +65,14 @@
   sudo apt install openjdk-8-jre
   ```
 
-  
+- 安装默认版本
+
+  ```
+  sudo apt update
+  sudo apt install default-jdk
+  ```
+
+  其实就是安装最新版本，和第一种安装办法其实是完全一样的。
 
 ## 3. 设置环境变量
 
@@ -92,7 +101,7 @@
   把查询到的 JDK 安装路径，保存到该文件中，对于我当前的电脑设备，大致如下：
 
   ```
-  JAVA_HOME=”/usr/lib/jvm/java-11-openjdk-amd64/bin/java”
+  JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
   ```
 
-  
+  注意：路径是 `/usr/lib/jvm/java-11-openjdk-amd64`， 不是查询出来的 `/usr/lib/jvm/java-11-openjdk-amd64/bin/java` 。
