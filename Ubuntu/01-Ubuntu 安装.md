@@ -57,3 +57,59 @@
   ```
 
   
+
+## 邮箱 - ThunderBird
+
+Linux 上比较流行的邮箱服务工具，我个人也在用。
+
+- 官方下载
+
+  https://www.thunderbird.net/zh-CN/
+
+- 安装手册
+
+  https://support.mozilla.org/zh-CN/kb/linux-thunderbird
+
+- 安装指令
+
+  ```bash
+  ## 打开终端并找到下载文件路径，比如：
+  cd ~/Downloads
+  # 直接在下载文件的目录下，打开 终端 更简单。
+  
+  ## 使用命令解压文件：
+  tar xjf thunderbird-*.tar.bz2
+  
+  ## 将解压后的文件放到 /opt：
+  sudo mv thunderbird /opt
+  
+  ## 创建 Thunderbird 可执行文件的链接：
+  sudo ln -s /opt/thunderbird/thunderbird /usr/local/bin/thunderbird
+  
+  ## 下载一份桌面文件：
+  sudo wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/installing-thunderbird-linux/thunderbird.desktop -P /usr/local/share/applications
+  ```
+
+- 软件卸载
+
+  直接在 Ubuntu软件中心，点击右键卸载软件。
+
+  或者参考如下指令：
+  
+  ```bash
+  ## 删除libreoffice
+  sudo apt-get remove libreoffice-common
+  
+  ## 删除其他不必要的软件
+  sudo apt-get remove thunderbird totem rhythmbox simple-scan gnome-mahjongg aisleriot gnome-mines cheese transmission-common gnome-sudoku
+  ```
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
