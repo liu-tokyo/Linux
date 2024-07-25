@@ -8,7 +8,7 @@
 
 2022年11月，UBports社区仍在推进和维护Ubuntu Touch，放出了 OTA-24 更新。
 
-## 系统特点
+## 1. 系统特点
 
 Ubuntu在桌面办公、服务器方面有着不俗的表现，总能够将最新的应用特性囊括其中，主要包括以下几方面：
 
@@ -26,3 +26,37 @@ Ubuntu在桌面办公、服务器方面有着不俗的表现，总能够将最�
 12. 进一步加强系统对笔记本电脑的支持，包括系统热键以及更多型号笔记本电脑的休眠与唤醒功能。
 13. 与著名的开源软件项目LTSP合作，内置了Linux终端服务器功能，提供对以瘦客户机作为图形终端的支持，大大提高老式PC机的利用率。
 14. Ubuntu 20.04 LTS提供对配备指纹识别功能笔记本的支持。可录制指纹和进行登陆认证。
+
+## 2. 版本及衍生版本
+
+### 2.1 版本分类
+
+Ubuntu官方网站提供了丰富的Ubuntu版本及衍生版本，下面按照几个流行的标准来进行分类。
+
+#### 2.1.1 根据中央处理器架构划分
+
+根据中央处理器架构划分，Ubuntu 16.04支持i386 32位系列、amd 64位X86系列、ARM系列及PowerPC系列处理器。由于不同的CPU实现的技术不同，体系架构各异，所以Ubuntu会编译出支持不同中央处理器类型的发行版本。
+Ubuntu 21.04和Ubuntu 20.04.2也提供对最新的RISC-V处理器的支持。
+
+#### 2.1.2 根据发布版本用途划分
+
+根据Ubuntu发行版本的用途来划分，可分为Ubuntu桌面版(Ubuntu Desktop)Ubuntu服务器版(Ubuntu Server)、Ubuntu云操作系统(Ubuntu Cloud)和Ubuntu移动设备系统(Ubuntu Touch)。Ubuntu已经形成一个比较完整的解决方案，涵盖了IT产品的方方面面。
+
+#### 2.1.3 根据开发项目划分
+
+除了标准Ubuntu版本之外，Ubuntu官方还有几大主要分支，分别是Edubuntu、Kubuntu、Lubuntu、Mythbuntu、Ubuntu MATE，Ubuntu GNOME、Ubuntu Kylin、Ubuntu Studio、Ubuntu Cinnamon Remix 和 Xubuntu。
+
+- Edubuntu是Ubuntu的教育发行版，专注于学校（教育）的需求，是由Ubuntu社区和K12-LTSP社区合作开发的，适合儿童、学生、教师使用的基础发行版，其内置了大量适合教学的应用软件和游戏。Edubuntu 14.04.2 LTS是其最后一个版本，自此之后，Edubuntu不再被维护。 
+- Kubuntu是使用KDE桌面管理器取代GNOME桌面管理器作为其默认的桌面管理器的版本。Kubuntu的推出，为喜爱KDE桌面环境的使用者的安装和使用带来了很大的便利。
+- Lubuntu是一个后起之秀，以轻量级桌面环境LXDE/LXQt替代Ubuntu默认的GNOME。由于LXDE是一个轻量级桌面环境，所以Lubuntu所需的计算机资源很少，十分适合追求简洁或速度，以及还在使用老旧硬件的朋友选用。
+- Mythbuntu是一个用来实现媒体中心的Ubuntu发行版本，其核心组件是MythTV，所以Mythbuntu可以视为Ubuntu和MythTV的结合体。
+- Ubuntu GNOME是采用GNOME3作为Ubuntu默认桌面管理器的发行版本。由于Ubuntu的默认桌面环境是Unity，为了满足Linux用户的不同需求和使用习惯，Ubuntu GNOME项目应运而生。Ubuntu GNOME 17.04是其最后一个版本，在此之后，由于Ubuntu重新开始使用GNOME桌面，Ubuntu GNOME不再被维护。
+- Ubuntu Kylin（优麒麟）是一个专门为中文用户定制的Ubuntu版本，预置了大量中国用户熟悉的应用，使用UKUI桌面，是开箱即用的Ubuntu官方中国定制版本，适合中国用户使用。
+- Ubuntu Studio则是一个为专业多媒体制作而打造的Ubuntu版本，可以编辑和处理音频、视频和图形图像等多媒体文件，对于多媒体专业人士而言，是一个鱼和熊掌兼得的好选择。
+- Xubuntu采用了小巧和高效的Xfce作为桌面环境，界面简约，类似于GNOME2，功能全面，系统资源消耗较小，是追求速度和低配置计算机用户的福音，同时也为老旧计算机提供了发挥余热的机会。
+- Ubuntu MATE是一个使用Mate桌面的Ubuntu分支。Mate是一款基于Gnome 2开发的桌面系统。
+- 2023年3月29日，Canonical 宣布 Ubuntu Cinnamon Remix 将作为官方风味版本，同年4月发布的 Ubuntu 23.04 会成为首个包含该风味版本的发行版。
+
+### 2.2 发展路线
+
+Ubuntu可谓是Linux世界中的黑马，其第一个正式版本于2004年10月正式推出。需要详细解释的是Ubuntu版本编号的定义，其编号以“年份的最后一位.发布月份”的格式命名，因此Ubuntu的第一个版本就称为4.10(2004.10)。除了代号之外，每个Ubuntu版本在开发之初还有一个开发代号。Ubuntu开发代号比较有意思，格式为“形容词+动物”，且形容词和动物名称的第一个字母要一致，如Ubuntu16.04的开发代号是Xenial Xerus，译为“好客的非洲地松鼠”。从Ubuntu 6.06开始，两个词的首字母按照英文字母表的排列顺序取用。
