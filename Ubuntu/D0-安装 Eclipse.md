@@ -1,9 +1,7 @@
 # Ubuntu 20.04上安装Eclipse IDE
 
-> [Eclipse](https://www.eclipse.org/)是使用最广泛的[Java](https://www.myfreax.com/install-java-on-ubuntu-18-04/)集成开发环境（IDE）。它可以通过插件扩展，也可以用于其他编程语言的开发，例如C ++，JavaScript和[ PHP ](https://www.myfreax.com/how-to-install-php-on-ubuntu-18-04/)。
->
-> Ubuntu存储库中可用的Eclipse安装包（版本3.8.1）已过时。最简单的方法是使用[ snappy ](https://snapcraft.io/)打包系统在Ubuntu 18.04上安装最新的Eclipse IDE。
->
+> [Eclipse](https://www.eclipse.org/)是使用最广泛的[Java](https://www.myfreax.com/install-java-on-ubuntu-18-04/)集成开发环境（IDE）。它可以通过插件扩展，也可以用于其他编程语言的开发，例如C ++，JavaScript和[ PHP ](https://www.myfreax.com/how-to-install-php-on-ubuntu-18-04/)。  
+> Ubuntu存储库中可用的Eclipse安装包（版本3.8.1）已过时。最简单的方法是使用[ snappy ](https://snapcraft.io/)打包系统在Ubuntu 18.04上安装最新的Eclipse IDE。  
 > 在本教程中，我们将向您展示如何在Ubuntu 18.04计算机上安装最新的Eclipse IDE。
 
 
@@ -43,8 +41,6 @@
   ```
   eclipse 2019-03 from Snapcrafters installed
   ```
-
-  
 
 ## 2. 启动 Eclipse
 
