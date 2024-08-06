@@ -2,9 +2,26 @@
 
 # Ubuntu 上安装工具软件
 
+## 1. 更新 snap-store
 
+- 从 22.04 开始，Ubuntu 的系统软件采用 SNAP 方式，系统更新使用如下指令：  
 
-## SSH 安装
+  ```bash
+  sudo snap refresh
+  ```
+
+- 然而，snap-store 却无法更新自身，按照如下指令进行更新：  
+
+  ```bash
+  ## 终端输入如下指令，无法更新的话，会显示 snap-store 的进程号
+  sudo snap refresh snap-store
+  ## 若显示“正在运行”，则杀死该进程
+  kill `进程号`
+  ## 再次执行，就能够正确更新
+  sudo snap refresh snap-store
+  ```
+
+## 2. SSH 安装
 
 桌面版安装的时候，可以选择安装该服务；我个人因为选择的是 最小安装，后期要用该服务的话，需要重新安装。  
 个人用的话，也许意义不到，但是考虑到云端操作，都是没有用户界面的（可以节省至少 500MB 的内存），需要经常用到 SSH 服务。
@@ -58,7 +75,7 @@
 
   
 
-## 邮箱 - ThunderBird
+## 3. 邮箱 - ThunderBird
 
 Linux 上比较流行的邮箱服务工具，我个人也在用。
 
