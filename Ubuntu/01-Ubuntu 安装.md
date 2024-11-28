@@ -16,7 +16,7 @@
   ## 终端输入如下指令，无法更新的话，会显示 snap-store 的进程号
   sudo snap refresh snap-store
   ## 若显示“正在运行”，则杀死该进程
-  kill `进程号`
+  kill -9 `进程号`
   ## 再次执行，就能够正确更新
   sudo snap refresh snap-store
   ```
@@ -120,13 +120,21 @@ Linux 上比较流行的邮箱服务工具，我个人也在用。
   ## 删除其他不必要的软件
   sudo apt-get remove thunderbird totem rhythmbox simple-scan gnome-mahjongg aisleriot gnome-mines cheese transmission-common gnome-sudoku
   ```
+
+## 4. 创建启动USB盘
+
+- 指令（创建 Ubuntu 启动盘没有问题，不知道能否创建 Windows 的启动盘；不过 Windows 启动盘也不需要这个简单办法）：
+
+  ```bash
+  ## 安装指令
+  sudo apt update
+  sudo apt upgrade
+  sudo apt install usb-creator-gtk
   
+  ## 执行指令
+  usb-creator-gtk
+  ```
+
   
-  
-  
-  
-  
-  
-  
-  
+
   
