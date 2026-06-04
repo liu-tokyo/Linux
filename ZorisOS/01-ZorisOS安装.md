@@ -46,3 +46,7 @@
   ```
 
   
+
+### 6. 开启内存压缩
+
+请参照 [如何开启内存压缩](https://github.com/liu-tokyo/Ubuntu/blob/main/63-Ubuntu%E5%BC%80%E5%90%AF%E5%86%85%E5%AD%98%E5%8E%8B%E7%BC%A9.md#%E5%A6%82%E4%BD%95%E7%A1%AE%E8%AE%A4%E6%98%AF%E5%90%A6%E7%94%9F%E6%95%88)
