@@ -50,3 +50,36 @@
 如果你手头有闲置的旧笔记本（比如四代 i5 的机器），或者想在 **VMware 虚拟机**里体验一下不一样的系统，Zorin OS 是一个比纯 Ubuntu 更好玩、更精致的选择。
 
 它既有 Linux **绝对不弹窗、不耍流氓、绝对隐私安全、更新不强制重启**的清爽，又有 Windows **开箱即用、不需要动脑子记命令**的温柔。用它来作为了解 Linux 世界的第一站，再合适不过了。
+
+
+
+
+
+# 内存资源占用
+
+- **ZorisOS Lite**
+
+  ```bash
+  $ free
+                 total        used        free      shared  buff/cache   available
+  内存：       8083256     1125100     6258272       13120      955564     6958156
+  交换：       2097148           0     2097148
+  
+  ```
+
+  更为接近 Windows10 和 Windows11 的界面。
+
+- **Zoris Core**
+
+  ```bash
+  $ free
+                 total        used        free      shared  buff/cache   available
+  内存：       8083276     1556756     4606408       24784     2194044     6526520
+  交换：       6138784           0     6138784
+  
+  ```
+
+  更为接近 Windows7 的界面。
+
+开机后，虽然 `Zoris Core` 较 `Zoris Lite` 多占用了 400MB 内存，但是界面看起来更加友好。现在的二手电脑，也普遍都有 4GB 内存，不会在乎这 400MB 内存；当然如果是 2GB 内存的旧电脑，估计只能选择 `Zoris Lite` 版本。
+
