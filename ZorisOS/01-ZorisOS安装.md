@@ -1,6 +1,14 @@
 # ZorisOS安装
 
+- **更新 Brave 浏览器**
 
+  参照 https://brave.com/linux/ ，下面指令更新的时候，需要重新开机，处于 Brave 未加载的状态，否则更新失败。	
+
+  ```bash
+  curl -fsS https://dl.brave.com/install.sh | sh
+  ```
+
+  
 
 ## 二、安装之后处理
 
